@@ -4,3 +4,5 @@ class Test:
     
     def text(self):
         return self.text
+        
+    

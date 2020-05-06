@@ -2,8 +2,12 @@
 from algorithm import Test
 
 class Student:
+    
+    stud_list = []
+    
     def __init__(self, name):
         self.name = name
+    
         
 class Subjects:
     def __init__(self, name, date):
@@ -15,11 +19,22 @@ class Schedule:
         self.result = []
         
     def schedule(self):
+        for x in Stud:
+            print (Student.name)
+        
         self.result.append("hi")
         return self.result
+    
         
 stud1 = Student('jake')
+stud2 = Student('mark')
+
+
+
 result1 = Schedule()
+
+
+
 
 
 
